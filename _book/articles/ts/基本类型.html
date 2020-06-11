@@ -1,0 +1,471 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>基本类型 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="接口.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../nginx/description.html">
+            
+                <a href="../nginx/description.html">
+            
+                    
+                    nginx系列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    ts系列
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="基本类型.html">
+            
+                <a href="基本类型.html">
+            
+                    
+                    基本类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="接口.html">
+            
+                <a href="接口.html">
+            
+                    
+                    接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >基本类型</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <!--
+ * @Descripttion: 
+ * @Version: 1.0.0
+ * @Author: lilufei3
+ * @Date: 2020-06-02 11:03:58
+ * @LastEditors: lilufei3
+ * @LastEditTime: 2020-06-04 11:03:39
+--> 
+<h3 id="boolean">Boolean</h3>
+<h4 id="boolean&#x4F5C;&#x4E3A;&#x6700;&#x57FA;&#x7840;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x5728;javascript&#x548C;typescript&#x4E2D;&#x88AB;&#x6210;&#x4E3A;&#x5E03;&#x5C14;&#x503C;">boolean&#x4F5C;&#x4E3A;&#x6700;&#x57FA;&#x7840;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x5728;JavaScript&#x548C;TypeScript&#x4E2D;&#x88AB;&#x6210;&#x4E3A;<strong><em>&#x5E03;&#x5C14;&#x503C;</em></strong></h4>
+<pre><code>  let isDone: boolean = false;
+</code></pre><h3 id="number">Number</h3>
+<h5 id="&#x548C;javascript&#x4E00;&#x6837;&#xFF0C;&#x5728;typescript&#x4E2D;&#x6240;&#x6709;&#x7684;&#x6570;&#x5B57;&#x90FD;&#x662F;&#x4EE5;&#x6D6E;&#x70B9;&#x6570;&#x6216;&#x5927;&#x6574;&#x6570;bigintefer&#x8868;&#x793A;&#x3002;&#x5176;&#x4E2D;&#x6D6E;&#x70B9;&#x6570;&#x5BF9;&#x5E94;-number-&#x7C7B;&#x578B;-biginteger&#x5BF9;&#x5E94;-bigint-&#x7C7B;&#x578B;&#x3002;&#x9664;&#x4E86;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x548C;&#x5341;&#x8FDB;&#x5236;&#xFF0C;typescript&#x8FD8;&#x652F;&#x6301;&#x516B;&#x8FDB;&#x5236;&#x548C;&#x4E8C;&#x8FDB;&#x5236;&#x3002;">&#x548C;JavaScript&#x4E00;&#x6837;&#xFF0C;&#x5728;TypeScript&#x4E2D;&#x6240;&#x6709;&#x7684;&#x6570;&#x5B57;&#x90FD;&#x662F;&#x4EE5;&#x6D6E;&#x70B9;&#x6570;&#x6216;&#x5927;&#x6574;&#x6570;(BigIntefer)&#x8868;&#x793A;&#x3002;&#x5176;&#x4E2D;&#x6D6E;&#x70B9;&#x6570;&#x5BF9;&#x5E94; <strong>number</strong> &#x7C7B;&#x578B;, BigInteger&#x5BF9;&#x5E94; <strong>bigint</strong> &#x7C7B;&#x578B;&#x3002;&#x9664;&#x4E86;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x548C;&#x5341;&#x8FDB;&#x5236;&#xFF0C;TypeScript&#x8FD8;&#x652F;&#x6301;&#x516B;&#x8FDB;&#x5236;&#x548C;&#x4E8C;&#x8FDB;&#x5236;&#x3002;</h5>
+<pre><code>let decimal: number = 6;
+let hex: number = 0xf00d;
+let binary: number = 0b1010;
+let octal: number = 0o744;
+let big: bigint = 100n;
+</code></pre><h3 id="string">String</h3>
+<h4 id="&#x5728;javascript&#x548C;typescript&#x4E2D;&#x4F7F;&#x7528;-string-&#x7C7B;&#x578B;&#x8868;&#x793A;&#x6587;&#x672C;&#x7C7B;&#x578B;&#x901A;&#x8FC7;&#x53CC;&#x5F15;&#x53F7;--&#x548C;--&#x6765;&#x5305;&#x88F9;&#x5B57;&#x7B26;&#x6570;&#x636E;">&#x5728;JavaScript&#x548C;TypeScript&#x4E2D;&#x4F7F;&#x7528; <strong>string</strong> &#x7C7B;&#x578B;&#x8868;&#x793A;&#x6587;&#x672C;&#x7C7B;&#x578B;,&#x901A;&#x8FC7;&#x53CC;&#x5F15;&#x53F7; &quot; &#x548C; &apos; &#x6765;&#x5305;&#x88F9;&#x5B57;&#x7B26;&#x6570;&#x636E;</h4>
+<pre><code>let color: string = &apos;blue&apos;;
+color = &apos;red&apos;;
+</code></pre><h4 id="typescript&#x540C;&#x6837;&#x652F;&#x6301;&#x6A21;&#x677F;&#x5B57;&#x7B26;&#x4E32;">TypeScript&#x540C;&#x6837;&#x652F;&#x6301;&#x6A21;&#x677F;&#x5B57;&#x7B26;&#x4E32;</h4>
+<pre><code>let firstName: string = &apos;navigator&apos;;
+let lastName: string = &apos;opera&apos;;
+let fullName: string = `${firstName} ${lastName}`;
+</code></pre><p>&#x7B49;&#x4EF7;&#x4E8E;</p>
+<pre><code>let fullName = firstName + &apos; &apos; + lastName;
+</code></pre><h3 id="array">Array</h3>
+<h4 id="&#x6570;&#x7EC4;&#x7C7B;&#x578B;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x591A;&#x79CD;&#x7C7B;&#x578B;&#x8868;&#x793A;&#xFF0C;&#x7B2C;&#x4E00;&#x79CD;&#xFF0C;&#x4F7F;&#x7528;-&#x5143;&#x7D20;&#x7C7B;&#x578B;-&#x8868;&#x793A;&#x7C7B;&#x578B;&#x6570;&#x7EC4;">&#x6570;&#x7EC4;&#x7C7B;&#x578B;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x591A;&#x79CD;&#x7C7B;&#x578B;&#x8868;&#x793A;&#xFF0C;&#x7B2C;&#x4E00;&#x79CD;&#xFF0C;&#x4F7F;&#x7528; &#x5143;&#x7D20;&#x7C7B;&#x578B;+<strong>[]</strong> &#x8868;&#x793A;&#x7C7B;&#x578B;&#x6570;&#x7EC4;</h4>
+<pre><code>let list: number[] = [1, 2, 3];
+</code></pre><h4 id="&#x7B2C;&#x4E8C;&#x79CD;&#x662F;&#x4F7F;&#x7528;&#x6B63;&#x5E38;&#x7684;&#x6570;&#x7EC4;&#x7C7B;&#x578B;&#xFF1A;array">&#x7B2C;&#x4E8C;&#x79CD;&#x662F;&#x4F7F;&#x7528;&#x6B63;&#x5E38;&#x7684;&#x6570;&#x7EC4;&#x7C7B;&#x578B;&#xFF1A;Array<elemtype></elemtype></h4>
+<pre><code>let list: Array&lt;number&gt; = [1, 2, 3];
+</code></pre><h3 id="tuple">Tuple</h3>
+<h4 id="tuple&#xFF08;&#x5143;&#x7EC4;&#xFF09;&#x7C7B;&#x578B;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x591A;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x524D;&#x63D0;&#x662F;&#x6570;&#x7EC4;&#x957F;&#x5EA6;&#x56FA;&#x5B9A;&#x3002;&#x4F8B;&#x5982;&#x53EF;&#x4EE5;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x6570;&#x5B57;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x3002;">Tuple&#xFF08;&#x5143;&#x7EC4;&#xFF09;&#x7C7B;&#x578B;&#x53EF;&#x4EE5;&#x8868;&#x793A;&#x591A;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x524D;&#x63D0;&#x662F;&#x6570;&#x7EC4;&#x957F;&#x5EA6;&#x56FA;&#x5B9A;&#x3002;&#x4F8B;&#x5982;&#x53EF;&#x4EE5;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x6570;&#x5B57;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x3002;</h4>
+<pre><code>// &#x58F0;&#x660E;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;
+let x: [string, number];
+// &#x521D;&#x59CB;&#x5316; &#xFF08;&#x6B63;&#x786E;&#xFF09;
+x = [&apos;hello&apos;, 23];
+// &#x521D;&#x59CB;&#x5316; &#xFF08;&#x9519;&#x8BEF;&#xFF09;
+x = [23, &apos;hello&apos;];
+Type &apos;number&apos; is not assignable to type &apos;string&apos;.
+Type &apos;string&apos; is not assignable to type &apos;number&apos;.
+</code></pre><h4 id="&#x901A;&#x8FC7;&#x6570;&#x7EC4;&#x7D22;&#x5F15;&#x83B7;&#x53D6;&#x5143;&#x7D20;&#x65F6;&#xFF0C;&#x4F1A;&#x68C0;&#x7D22;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;">&#x901A;&#x8FC7;&#x6570;&#x7EC4;&#x7D22;&#x5F15;&#x83B7;&#x53D6;&#x5143;&#x7D20;&#x65F6;&#xFF0C;&#x4F1A;&#x68C0;&#x7D22;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;</h4>
+<pre><code>console.log(x[0].substring(1)); // OK
+console.log(x[1].substring[1]); // Error, &apos;number&apos; does not have &apos;substring&apos;
+</code></pre><h4 id="&#x83B7;&#x53D6;&#x8D85;&#x51FA;&#x6570;&#x7EC4;&#x4E0B;&#x6807;&#x7684;&#x5143;&#x7D20;&#x4F1A;&#x629B;&#x51FA;&#x9519;&#x8BEF;">&#x83B7;&#x53D6;&#x8D85;&#x51FA;&#x6570;&#x7EC4;&#x4E0B;&#x6807;&#x7684;&#x5143;&#x7D20;&#x4F1A;&#x629B;&#x51FA;&#x9519;&#x8BEF;</h4>
+<pre><code>x[3] = &quot;world&quot;; // Error, Property &apos;3&apos; does not exist on type &apos;[string, number]&apos;.
+
+Tuple type &apos;[string, number]&apos; of length &apos;2&apos; has no element at index &apos;3&apos;.
+
+console.log(x[5].toString()); // Error, Property &apos;5&apos; does not exist on type &apos;[string, number]&apos;.
+
+Object is possibly &apos;undefined&apos;.
+Tuple type &apos;[string, number]&apos; of length &apos;2&apos; has no element at index &apos;5&apos;.
+</code></pre><h3 id="enum">Enum</h3>
+<h4 id="enum&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x6709;&#x7528;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x901A;&#x8FC7;&#x7ED9;&#x5B9A;&#x53CB;&#x597D;&#x7684;&#x547D;&#x540D;&#x6765;&#x8868;&#x793A;&#x6570;&#x503C;&#x96C6;&#x5408;">enum&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x6709;&#x7528;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x901A;&#x8FC7;&#x7ED9;&#x5B9A;&#x53CB;&#x597D;&#x7684;&#x547D;&#x540D;&#x6765;&#x8868;&#x793A;&#x6570;&#x503C;&#x96C6;&#x5408;</h4>
+<pre><code>enum Color {
+  Red,
+  Green,
+  Blue
+}
+let c: Color = Color.Green; // 1
+</code></pre><p>enum&#x9ED8;&#x8BA4;&#x4ECE; <strong>0</strong> &#x5F00;&#x59CB;&#x8BA1;&#x6570;, &#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7ED9;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x6216;&#x51E0;&#x4E2A;&#x5143;&#x7D20;&#x8D4B;&#x503C;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4ECE; 1 &#x5F00;&#x59CB;&#x8BA1;&#x6570;&#x3002;</p>
+<pre><code>enum Color {
+  Red = 1,
+  Green,
+  Blue,
+}
+
+let c: Color = Color.Green; // 2
+</code></pre><p>&#x4E5F;&#x53EF;&#x4EE5;&#x7ED9;&#x6240;&#x6709;&#x5143;&#x7D20;&#x8D4B;&#x503C;</p>
+<pre><code>enum Color {
+  Red = 1,
+  Green = 3,
+  Blue = 12,
+}
+
+let c: Color = Color.Green; // 3
+</code></pre><p>&#x53E6;&#x4E00;&#x4E2A;&#x597D;&#x7528;&#x7684;&#x529F;&#x80FD;&#x5C31;&#x662F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8BBE;&#x7F6E;&#x7684;&#x5143;&#x7D20;&#x503C;&#x83B7;&#x53D6;&#x5143;&#x7D20;&#x540D;&#x79F0;&#xFF0C;&#x4F8B;&#x5982;</p>
+<pre><code>enum Color {
+  Red = 1,
+  Green,
+  Blue,
+}
+
+let colorName: string = Color[2];
+
+console.log(colorName); // Green
+</code></pre><h3 id="any">Any</h3>
+<h4 id="&#x5982;&#x679C;&#x4E0D;&#x786E;&#x5B9A;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x540C;&#x65F6;&#x4E3A;&#x4E86;&#x901A;&#x8FC7;ts&#x7684;&#x7C7B;&#x578B;&#x68C0;&#x67E5;&#xFF0C;&#x53EF;&#x4EE5;&#x7ED9;&#x8FD9;&#x79CD;&#x5143;&#x7D20;&#x6807;&#x8BB0;&#x4E3A;-any-&#x7C7B;&#x578B;">&#x5982;&#x679C;&#x4E0D;&#x786E;&#x5B9A;&#x53D8;&#x91CF;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x540C;&#x65F6;&#x4E3A;&#x4E86;&#x901A;&#x8FC7;ts&#x7684;&#x7C7B;&#x578B;&#x68C0;&#x67E5;&#xFF0C;&#x53EF;&#x4EE5;&#x7ED9;&#x8FD9;&#x79CD;&#x5143;&#x7D20;&#x6807;&#x8BB0;&#x4E3A; <strong>any</strong> &#x7C7B;&#x578B;</h4>
+<pre><code>let notSure: any = 4;
+notSure = &apos;maybe a string instead&apos;; // ok
+notSure = false; // ok
+
+notSure.toFixed(); // ok, &#x7F16;&#x8BD1;&#x5668;&#x4E0D;&#x4F1A;&#x68C0;&#x67E5;
+
+
+let list: any[] = [1, true, &apos;dd&apos;];
+list[2] = 100; // [1, true, 100];
+</code></pre><h3 id="void">Void</h3>
+<h4 id="&#x5F53;&#x51FD;&#x6570;&#x6CA1;&#x6709;&#x8FD4;&#x56DE;&#x503C;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x52A0;&#x4E0A;-void-&#x7C7B;&#x578B;">&#x5F53;&#x51FD;&#x6570;&#x6CA1;&#x6709;&#x8FD4;&#x56DE;&#x503C;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x52A0;&#x4E0A; <strong>void</strong> &#x7C7B;&#x578B;</h4>
+<pre><code>function warnUser(): void{
+  console.log(&apos;This is my warning message&apos;);
+}
+</code></pre><p>&#x5C06;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x65F6;&#x6807;&#x8BB0;&#x4E3A; <strong>void</strong> &#x662F;&#x6CA1;&#x6709;&#x610F;&#x4E49;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x4F60;&#x53EA;&#x53EF;&#x4EE5;&#x7ED9;&#x5176;&#x8D4B;&#x503C;&#x4E3A; <strong>null</strong> (&#x5F53;&#x4E14;&#x4EC5;&#x5F53; <strong>--strictNullChecks</strong> &#x4E3A; false) &#x6216;&#x8005; <strong>undefined</strong></p>
+<pre><code>let unusable: void = undefined;
+unusable = nulll // OK if `--strictNullChecks` is not given
+</code></pre><h3 id="null-&#x548C;-undefined">Null &#x548C; Undefined</h3>
+<h5 id="&#x5728;typescript&#x4E2D;&#xFF0C;-null-&#x548C;-undefined-&#x62E5;&#x6709;&#x5C5E;&#x4E8E;&#x81EA;&#x5DF1;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;-null-&#x548C;-undefined">&#x5728;typeScript&#x4E2D;&#xFF0C; <strong>null</strong> &#x548C; <strong>undefined</strong> &#x62E5;&#x6709;&#x5C5E;&#x4E8E;&#x81EA;&#x5DF1;&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x4E5F;&#x5C31;&#x662F; <strong>null</strong> &#x548C; <strong>undefined</strong></h5>
+<pre><code>let u: undefined = undefined;
+let n: null = null;
+</code></pre><h3 id="never">Never</h3>
+<h4 id="never-&#x7C7B;&#x578B;&#x7528;&#x4E8E;&#x8868;&#x793A;&#x629B;&#x51FA;&#x9519;&#x8BEF;&#x6216;&#x8005;&#x6B7B;&#x5FAA;&#x73AF;&#x51FD;&#x6570;&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;"><strong>never</strong> &#x7C7B;&#x578B;&#x7528;&#x4E8E;&#x8868;&#x793A;&#x629B;&#x51FA;&#x9519;&#x8BEF;&#x6216;&#x8005;&#x6B7B;&#x5FAA;&#x73AF;&#x51FD;&#x6570;&#x7684;&#x8FD4;&#x56DE;&#x7C7B;&#x578B;</h4>
+<pre><code>function error(msg: string): never {
+  throw new Error(msg);
+}
+
+function fail(msg: string) {
+  return error(msg);
+}
+
+function infiniteLoop: never() {
+  while(true) {}
+}
+</code></pre><h3 id="object">Object</h3>
+<h4 id="object-&#x7C7B;&#x578B;&#x8868;&#x793A;&#x975E;&#x57FA;&#x672C;&#x7C7B;&#x578B;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x975E;-number-string-boolean-symbol-null-undefined"><strong>object</strong> &#x7C7B;&#x578B;&#x8868;&#x793A;&#x975E;&#x57FA;&#x672C;&#x7C7B;&#x578B;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x975E; <strong>number</strong>, <strong>string</strong>, <strong>boolean</strong>, <strong>symbol</strong>, <strong>null</strong>, <strong>undefined</strong>.</h4>
+<pre><code>declare function create(o: object | null): void;
+
+create({ prop: 0 }); // ok
+create(null); // ok
+
+create(42); // error
+</code></pre><blockquote>
+<p>Argument of type &apos;42&apos; is not assignable to parameter of type &apos;object | null&apos;. </p>
+</blockquote>
+<pre><code>create(&apos;string&apos;); // error
+</code></pre><blockquote>
+<p>Argument of type &apos;&quot;string&quot;&apos; is not assignable to parameter of type &apos;object | null&apos;. </p>
+</blockquote>
+<pre><code>create(false); // Error
+</code></pre><blockquote>
+<p>Argument of type &apos;false&apos; is not assignable to parameter of type &apos;object | null&apos;. </p>
+</blockquote>
+<pre><code>create(undefined); // Error
+</code></pre><blockquote>
+<p>Argument of type &apos;undefined&apos; is not assignable to parameter of type &apos;object | null&apos;.</p>
+</blockquote>
+<h3 id="assertions">assertions</h3>
+<h4 id="&#x65AD;&#x8A00;&#x7C7B;&#x578B;&#x4F1A;&#x544A;&#x8BC9;&#x7F16;&#x8BD1;&#x5668;&#x5F00;&#x53D1;&#x8005;&#x660E;&#x786E;&#x5F53;&#x524D;&#x7684;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#xFF0C;&#x4E0D;&#x7528;&#x505A;&#x7279;&#x522B;&#x6821;&#x9A8C;">&#x65AD;&#x8A00;&#x7C7B;&#x578B;&#x4F1A;&#x544A;&#x8BC9;&#x7F16;&#x8BD1;&#x5668;&#x5F00;&#x53D1;&#x8005;&#x660E;&#x786E;&#x5F53;&#x524D;&#x7684;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#xFF0C;&#x4E0D;&#x7528;&#x505A;&#x7279;&#x522B;&#x6821;&#x9A8C;</h4>
+<blockquote>
+<p>&#x5C16;&#x62EC;&#x53F7;&#x5F62;&#x5F0F;</p>
+</blockquote>
+<pre><code>let someValue: any = &apos;some thing&apos;;
+let length: number = (&lt;string&gt;someValue).length;
+</code></pre><blockquote>
+<p>as&#x5F62;&#x5F0F;</p>
+<pre><code>let someValue: any = &apos;some thing&apos;;
+let length: number = (someValue as string).length;
+</code></pre></blockquote>
+<h4 id="&#x8FD9;&#x4E24;&#x79CD;&#x5F62;&#x5F0F;&#x662F;&#x7B49;&#x4EF7;&#x7684;&#xFF0C;&#x770B;&#x4E2A;&#x4EBA;&#x559C;&#x597D;&#x9009;&#x62E9;&#x3002;&#x4E0D;&#x8FC7;&#x5728;jsx&#x4E2D;&#xFF0C;&#x53EA;&#x80FD;&#x4F7F;&#x7528;-as-&#x5F62;&#x5F0F;&#x7684;&#x65AD;&#x8A00;&#x3002;">&#x8FD9;&#x4E24;&#x79CD;&#x5F62;&#x5F0F;&#x662F;&#x7B49;&#x4EF7;&#x7684;&#xFF0C;&#x770B;&#x4E2A;&#x4EBA;&#x559C;&#x597D;&#x9009;&#x62E9;&#x3002;&#x4E0D;&#x8FC7;&#x5728;jsx&#x4E2D;&#xFF0C;&#x53EA;&#x80FD;&#x4F7F;&#x7528; <strong>as</strong> &#x5F62;&#x5F0F;&#x7684;&#x65AD;&#x8A00;&#x3002;</h4>
+<h4 id="&#x65AD;&#x8A00;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x5F53;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x8054;&#x5408;&#x7C7B;&#x578B;&#x65F6;&#xFF0C;&#x53EA;&#x80FD;&#x4F7F;&#x7528;&#x8BE5;&#x8054;&#x5408;&#x7C7B;&#x578B;&#x5171;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x6216;&#x65B9;&#x6CD5;">&#x65AD;&#x8A00;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x5F53;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x8054;&#x5408;&#x7C7B;&#x578B;&#x65F6;&#xFF0C;&#x53EA;&#x80FD;&#x4F7F;&#x7528;&#x8BE5;&#x8054;&#x5408;&#x7C7B;&#x578B;&#x5171;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x6216;&#x65B9;&#x6CD5;</h4>
+<pre><code>function getLength(something: string | number): number {
+    return something.length;
+}
+
+// index.ts(2,22): error TS2339: Property &apos;length&apos; does not exist on type &apos;string | number&apos;.
+//   Property &apos;length&apos; does not exist on type &apos;number&apos;.
+</code></pre><h4 id="&#x5982;&#x679C;&#x9700;&#x8981;&#x5728;&#x8FD8;&#x4E0D;&#x786E;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x65F6;&#x5019;&#x5C31;&#x8BBF;&#x95EE;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x7C7B;&#x578B;&#x7684;&#x5C5E;&#x6027;&#x6216;&#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x53D8;&#x91CF;&#x65AD;&#x8A00;&#x4E3A;&#x5176;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x7C7B;&#x578B;&#xFF08;&#x53EA;&#x80FD;&#x65AD;&#x8A00;&#x6210;&#x8054;&#x5408;&#x7C7B;&#x578B;&#x4E2D;&#x7684;&#x7C7B;&#x578B;&#xFF09;">&#x5982;&#x679C;&#x9700;&#x8981;&#x5728;&#x8FD8;&#x4E0D;&#x786E;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x65F6;&#x5019;&#x5C31;&#x8BBF;&#x95EE;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x7C7B;&#x578B;&#x7684;&#x5C5E;&#x6027;&#x6216;&#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x53D8;&#x91CF;&#x65AD;&#x8A00;&#x4E3A;&#x5176;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x7C7B;&#x578B;&#xFF08;&#x53EA;&#x80FD;&#x65AD;&#x8A00;&#x6210;&#x8054;&#x5408;&#x7C7B;&#x578B;&#x4E2D;&#x7684;&#x7C7B;&#x578B;&#xFF09;</h4>
+<pre><code>function getLength(something: string | number): number {
+    if ((&lt;string&gt;something).length) {
+        return (&lt;string&gt;something).length;
+    } else {
+        return something.toString().length;
+    }
+}
+
+&#x6216;
+
+function getLength(something: string | number): number {
+    if ((something as string).length) {
+        return (something as string).length;
+    } else {
+        return something.toString().length;
+    }
+}
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="接口.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 接口">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"基本类型","level":"1.3.1","depth":2,"next":{"title":"接口","level":"1.3.2","depth":2,"path":"articles/ts/接口.md","ref":"articles/ts/接口.md","articles":[]},"previous":{"title":"ts系列","level":"1.3","depth":1,"ref":"","articles":[{"title":"基本类型","level":"1.3.1","depth":2,"path":"articles/ts/基本类型.md","ref":"articles/ts/基本类型.md","articles":[]},{"title":"接口","level":"1.3.2","depth":2,"path":"articles/ts/接口.md","ref":"articles/ts/接口.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"articles/ts/基本类型.md","mtime":"2020-06-04T03:03:39.508Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-10T12:01:39.465Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
