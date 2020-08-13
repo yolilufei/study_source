@@ -1,2 +1,4 @@
 .DS_Store
 .vs_code
+_book/**/*
+node_modules

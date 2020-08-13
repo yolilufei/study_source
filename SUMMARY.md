@@ -4,7 +4,7 @@
  * @Author: lilufei3
  * @Date: 2020-04-24 13:18:07
  * @LastEditors: lilufei3
- * @LastEditTime: 2020-06-07 18:54:41
+ * @LastEditTime: 2020-07-28 23:46:03
 --> 
 
 # Summary
@@ -15,3 +15,6 @@
 * ts系列
   1. [基本类型](articles/ts/基本类型.md)
   2. [接口](articles/ts/接口.md)
+  3. [函数](articles/ts/函数.md)
+* web系列
+  1. [XMLHttpRequest一](articles/web/xmlHttpRequest-1.md)
