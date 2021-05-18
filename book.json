@@ -24,7 +24,10 @@
     "github-buttons",
     "sharing-plus",
     "anchor-navigation-ex",
-    "favicon"
+    "favicon",
+    "summary",
+     "toggle-chapters",
+    "theme-comscore"
   ],
   "pluginsConfig": {
     "github": {

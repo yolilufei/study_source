@@ -1,29 +1,71 @@
-<!--
- * @Descripttion: 
- * @Version: 1.0.0
- * @Author: lilufei3
- * @Date: 2020-04-24 13:18:07
- * @LastEditors: lilufei3
- * @LastEditTime: 2020-07-28 23:46:03
--->
 
-# Summary
+## Articles
 
-* [简介](readme.md)
-* [nginx系列](articles/nginx/description.md)
-* [ts系列](articles/ts/readme.md)
-    * [基本类型](articles/ts/基本类型.md)
-    * [接口](articles/ts/接口.md)
-    * [函数](articles/ts/函数.md)
-* [web系列]()
-* [XMLHttpRequest一](articles/web/xmlHttpRequest-1.md)
-* [面试总结](articles/面试总结/readme.md)
-  * [八股文](articles/面试总结/index.md)
-  * [架构](articles/面试总结/index.md)
-  * [手写代码](**)
-    * [promise](articles/面试总结/手写代码/promise.md)
-  * [算法](articles/面试总结/index.md)
-  * [源码阅读](articles/面试总结/index.md)
-  * [实战](**)
-      * [题目一](articles/面试总结/typescript/question1.md)
-      * [题目二](articles/面试总结/typescript/question2.md)
+- [Flutter]()
+- [Leetcode]()
+- [Nginx]()
+    - [Description](articles/nginx/description.md)
+    - [Location](articles/nginx/location.md)
+- [Node]()
+- [Other]()
+    - [方法论](articles/other/方法论.md)
+- [Performance Optimize]()
+- [Raw Code]()
+- [Source Code]()
+- [Ts](articles/ts/README.md)
+    - [Readme](articles/ts/readme.md)
+    - [函数](articles/ts/函数.md)
+    - [基本类型](articles/ts/基本类型.md)
+    - [接口](articles/ts/接口.md)
+    - [泛型](articles/ts/泛型.md)
+    - [详解Tsconfig](articles/ts/详解tsconfig.md)
+- [Web]()
+    - [Canvas]()
+    - [Css]()
+        - [Flex](articles/web/css/flex.md)
+    - [XmlHttpRequest 1](articles/web/xmlHttpRequest-1.md)
+- [前端架构]()
+    - [微前端]()
+- [工程化]()
+- [泛客户端]()
+- [浏览器工作原理](articles/浏览器工作原理/README.md)
+
+    - [浏览器架构](articles/浏览器工作原理/浏览器架构.md)
+- [编程范式](articles/编程范式/README.md)
+
+    - [函数式编程](articles/编程范式/函数式编程.md)
+    - [柯理化](articles/编程范式/柯理化.md)
+    - [纯函数](articles/编程范式/纯函数.md)
+- [自动化构建]()
+    - [FIS]()
+    - [Grunt]()
+    - [Webpack]()
+    - [Gulp]()
+- [设计模式](articles/设计模式/README.md)
+
+    - [发布订阅模](articles/设计模式/发布订阅模.md)
+- [面试总结](articles/面试总结/README.md)
+    - [Readme](articles/面试总结/readme.md)
+    - [Typescript]()
+        - [Question1](articles/面试总结/typescript/question1.md)
+        - [Question2](articles/面试总结/typescript/question2.md)
+    - [八股文]()
+        - [性能优化]()
+            - [JavaScript性能优化 Performance 工具详解](articles/面试总结/八股文/性能优化/JavaScript性能优化-Performance 工具详解.md)
+            - [JavaScript性能优化 内存管理](articles/面试总结/八股文/性能优化/JavaScript性能优化-内存管理.md)
+            - [Imgs]()
+        - [设计模式]()
+            - [发布订阅模式](articles/面试总结/八股文/设计模式/发布订阅模式.md)
+            - [观察者模式](articles/面试总结/八股文/设计模式/观察者模式.md)
+    - [手写代码]()
+        - [Promise](articles/面试总结/手写代码/promise.md)
+    - [架构]()
+        - [工程化]()
+            - [什么是工程化](articles/面试总结/架构/工程化/什么是工程化.md)
+            - [前端工程化](articles/面试总结/架构/工程化/前端工程化.md)
+    - [源码阅读]()
+    - [算法]()
+
+## Imgs
+
+- [Wx Qrcode]()
